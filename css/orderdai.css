@@ -1,0 +1,457 @@
+.con{
+    width: 100%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    height: auto;
+    background: #ebebeb;
+    margin-bottom: 0.96rem;
+}
+
+.navtitle{
+    width: 100%;
+    height:0.96rem ;
+    position: relative;
+
+}
+.navtitle_word{
+    font-size: 0.36rem;
+    color: #333333;
+    line-height: 0.96rem;
+    text-align: center;
+    font-weight: bold;
+}
+.information{
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 0.5rem;
+    height: 0.5rem;
+
+}
+
+.information .icon-duanxinlianxiwo{
+    font-size: 0.42rem;
+    color: #f7752b;
+}
+
+
+/*导航开始*/
+.daohang{
+   width: 100%;
+
+}
+.daohang_lei{
+    width: 6.62rem;
+    height: 0.78rem;
+    background-color: #ffffff;
+    box-shadow: 0.01rem 0.08rem 0.12rem 0.01rem rgba(255, 113, 38, 0.17);
+    border-radius: 0.39rem;
+    border: solid 0.02rem #f7752b;
+    margin: 0 auto;
+}
+.daohang_leiL,.daohang_leiR{
+    width: 50%;
+    height: 100%;
+    font-size: 0.28rem;
+    color: #6b6b6b;
+    text-align: center;
+    line-height: 0.78rem;
+    float: left;
+
+}
+.daohang_lei .daochange{
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    font-size: 0.36rem;
+    color: #ffffff;
+    border-radius: 0.35rem;
+}
+
+
+/*订单列表*/
+.order_listw{
+    width: 100%;
+    height: auto;
+    margin-top: 0.32rem;
+    padding-bottom: 0.04rem;
+    box-sizing: border-box;
+}
+.order_list{
+    width: 100%;
+    height: 6.45rem;
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    margin-bottom: 0.16rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.orderlist_lei{
+    width: 100%;
+    border-bottom: 0.02rem solid #ebebeb;
+    padding: 0 0.14rem;
+    box-sizing: border-box;
+}
+.order_psn{
+    height: 0.48rem;
+    border-bottom: 0.04rem solid #ebebeb;
+    font-size: 0.22rem;
+    color: #666666;
+    line-height: 0.48rem;
+    text-align: left;
+}
+.order_address{
+    height: 1.71rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.addresstop{
+    width: 100%;
+    height: 0.96rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.addressbottom{
+    width: 100%;
+    height: 0.57rem;
+    font-size: 0.2rem;
+    color: #7d7d7d;
+    line-height: 0.57rem;
+}
+.addresstop_left{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.addresstop_zhong{
+
+    height: 100%;
+    font-size: 0.26rem;
+    color: #43b4ff;
+    line-height: 0.96rem;
+}
+
+.addresstop_jia{
+    width: 1.02rem;
+    height: 0.47rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    font-size: 0.28rem;
+    color: #ffffff;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.47rem;
+    margin-right: 0.21rem;
+}
+.addresstop_right{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.addresstop_left_top,.addresstop_left_bottom{
+    width: 100%;
+}
+.addresstop_left_top{
+    height: 0.65rem;
+}
+.addresstop_left_bottom{
+    height: 0.31rem;
+    font-size: 0.2rem;
+    color: #7d7d7d;
+    line-height: 0.31rem;
+    margin-top: 0.04rem;
+}
+.addresstop_left_img{
+    width: 0.65rem;
+    height: 0.65rem;
+    box-shadow: 0.01rem 0.04rem 0.05rem 0 rgba(255, 113, 38, 0.13);
+    border-radius: 0.1rem;
+    float: left;
+    background: url("../img/userimg.gif") no-repeat center center;
+}
+.addresstop_left_name{
+    font-size: 0.26rem;
+    color: #7c7c7c;
+    line-height: 0.65rem;
+    float: left;
+    margin-left: 0.37rem;
+}
+.addresstop_phone,.addresstop_notice{
+    width: 100%;
+}
+.addresstop_phone{
+    height: 0.69rem;
+    background: url('../img/phone.gif') no-repeat ;
+    background-size: contain;
+}
+.addresstop_notice{
+    font-size: 0.24rem;
+    color: #43b4ff;
+    line-height: 0.27rem;
+    text-align: center;
+}
+
+
+.order_procon{
+    height: 1.89rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.procon_img{
+    width: 2rem;
+    height: 1.3rem;
+    border-radius: 0.1rem;
+    margin-left: -0.05rem;
+    margin-right: 0.34rem;
+}
+
+.procon_img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.procon_info{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.producttitle{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    position: relative;
+
+}
+.producttitleL{
+    float: left;
+    font-size: 0.26rem;
+    color: #333333;
+    font-weight: bold;
+}
+.producttitleR{
+    float: right;
+    font-size: 0.24rem;
+    color: #ee5849;
+    position: absolute;
+    top:0.1rem;
+    right: 0.05rem;
+}
+.productname1,.productname2{
+    float: left;
+    font-size: 0.24rem;
+    color: #666666;
+
+}
+.productname2{
+    margin-left: 0.12rem;
+}
+.productnum{
+   width: 100%;
+    margin-top: 0.2rem;
+}
+.productnum1{
+    float: left;
+}
+.productnum2{
+    float: left;
+
+}
+.productnum3{
+    float: right;
+}
+.productprice{
+    font-size: 0.26rem;
+    color:  #cb2c2c;
+    font-weight: bold;
+}
+.productold{
+    font-size: 0.2rem;
+    color: #999999;
+    text-decoration:line-through
+}
+.productnum2{
+    width: 0.71rem;
+    height: 0.26rem;
+    background-color: #ffd8b2;
+    border-radius: 0.1rem;
+    font-size: 0.2rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.26rem;
+    margin-left: 0.24rem;
+    margin-top: 0.04rem;
+}
+.productnum3{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #cb2c2c;
+    margin-bottom: 0.03rem;
+}
+.order_pei{
+    height: 0.58rem;
+}
+
+.peititle{
+    float: left;
+    font-size: 0.24rem;
+    color:  #333333;
+    line-height: 0.58rem;
+    font-weight: bold;
+}
+.peiprice{
+    float: right;
+    font-size: 0.24rem;
+    color: #cb2c2c;
+    line-height: 0.58rem;
+    margin-right: 0.26rem;
+}
+.order_total{
+    height: 0.72rem;
+    border-bottom: 0.04rem solid #ebebeb;
+    display: flex;
+    justify-content: flex-end;
+}
+.total_title{
+    font-size: 0.28rem;
+    color: #333333;
+    font-weight: bold;
+    line-height: 0.72rem;
+    margin-right: 0.26rem;
+    font-family: SourceHanSansCN-Bold;
+}
+.total_price{
+    font-size: 0.28rem;
+    color: #cb2c2c;
+    line-height: 0.72rem;
+    font-weight: bold;
+    margin-right: 0.04rem;
+}
+.order_btn{
+    height: 0.93rem;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.querenbtn{
+    width: 100%;
+    height: 0.55rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.55rem;
+}
+
+
+/*底部导航*/
+.footer{
+    width: 100%;
+    height: 0.96rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+
+.footerli{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items: center;
+}
+.footerword{
+    font-size: 0.2rem;
+    color: #333333;
+}
+.footerli .iconfont.footactive{
+    font-size: 0.48rem;
+    color: #fd903a;
+}
+
+.footerli .icon-gerenzhongxinwodedingdan,.footerli .icon-dingdandingdanchaxun,.footerli .icon-faxian{
+   font-size: 0.46rem;
+    color: #8e8e8e;
+}
+.footerli .icon-gerenzhongxinwodedingdan,.footerli .icon-dingdandingdanchaxun{
+    font-size: 0.48rem;
+}
+
+.music{
+    width: 100%;
+    display: flex;
+    margin-top: 0.42rem;
+    align-items: center;
+
+}
+
+.music .icon-xiaolaba{
+    font-size: 0.3rem;
+    color: #6f7176;
+    margin-right: 0.29rem;
+}
+
+.music_gao{
+    /*width: 73.6%;*/
+}
+
+.music_gao span{
+    font-size: 0.24rem;
+    color: #7d7d7d;
+}
+
+.hujiao{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hujiao_con{
+    width: 91.9%;
+    height: 2.73rem;
+    background: #ffffff;
+    border-radius: 0.2rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hujiao_con span{
+    font-size: 0.34rem;
+    color: #363636;
+    font-weight: bold;
+}
+
+.hujiaoanbtn{
+    width: 48.6%;
+    height: 0.53rem;
+    font-size: 0.3rem;
+    color: #ffffff;
+    background-image: linear-gradient(128deg, #ff963a 0%, #ff6b23 100%), linear-gradient(#ebebeb, #ebebeb);
+    text-align: center;
+    line-height: 0.53rem;
+    border-radius: 0.12rem;
+    margin-top: 0.56rem;
+}

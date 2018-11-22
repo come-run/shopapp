@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #ebebeb;
+}
+
+
+.title{
+    width: 100%;
+    height: 0.96rem;
+    background: #ebebeb;
+
+}
+.title a{
+
+    height: 100%;
+    float: left;
+    margin-left: 0.32rem;
+
+}
+.title a .icon-zuojiantou{
+    /*font-size: 0.4rem;*/
+    /*font-weight: bold;*/
+    /*color: #333333;*/
+    /*line-height: 0.96rem;*/
+    font-size: 0.4rem;
+    color: #515151;
+    line-height: 0.96rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+}
+
+.con{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+
+}
+
+.settime{
+    width: 100%;
+    height: 3.52rem;
+    background: #ffffff;
+    border-radius: 0.14rem;
+    margin-top: 0.03rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.shopshowimg{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin-top: 0.18rem;
+    margin-bottom: 0.18rem;
+}
+
+.shopshowimg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.shopshowname{
+    font-size: 0.28rem;
+    color: #ff963b;
+    font-weight: bold;
+}
+
+.shopshowid{
+    font-size:0.22rem;
+    color: #b0b0b0;
+    margin-top: 0.22rem;
+}
+
+.showstace{
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0;
+}
+
+.settimeinput{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0.31rem;
+    left: 0.21rem;
+}
+.settimeinput_title{
+    font-size: 0.22rem;
+    color: #666666;
+    margin-right: 0.16rem;
+}
+.timejie{
+    width: 0.42rem;
+    height: 0.04rem;
+    border-radius: 0.02rem;
+    background: #666666;
+    margin-left: 0.16rem;
+    margin-right: 0.16rem;
+}
+.timestsrt,.timelast{
+    outline: none;
+    border: none;
+    font-size: 0.2rem;
+    text-align: center;
+    color: #666666;
+    line-height: 0.4rem;
+    background: #e3f4ff;
+    display: block;
+    width: 1.62rem;
+    height: 0.4rem;
+    border-radius: 0.14rem;
+}
+
+
+.timtbtn{
+    width: 6.37rem;
+    height: 0.55rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.55rem;
+    color: #ffffff;
+    margin: 0.29rem auto;
+}

@@ -1,0 +1,101 @@
+.title{
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 0.02rem solid #ebebeb;
+    position: relative;
+}
+.title_back{
+    width: 0.22px;
+    height: 100%;
+    float: left;
+    margin-left: 0.32rem;
+}
+.title_back a{
+    /*font-size: 0.4rem;*/
+    /*font-weight: bold;*/
+    /*color: #333333;*/
+    /*line-height: 0.96rem;*/
+    width: 0.25rem;
+    height: 0.45rem;
+    display: block;
+    background: url("../img/back.gif");
+    background-size: contain;
+    margin-top: 0.25rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.34rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+    font-family: SourceHanSansCN-Bold;
+}
+
+
+.productinfo{
+    width: 100%;
+    height: auto;
+}
+
+.infolist{
+    width: 100%;
+    height: 1.02rem;
+    border-bottom: 0.02rem solid #ebebeb;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pname{
+    font-size: 0.34rem;
+    color: #3e3e3e;
+    font-weight: bold;
+    margin-left: 0.39rem;
+}
+
+.infoitem{
+    width: 2.93rem;
+    height: 0.53rem;
+    background: #ededed;
+    outline: none;
+    border: none;
+    font-size: 0.26rem;
+    color: #636363;
+    text-align: center;
+    line-height: 0.53rem;
+    border-radius: 0.1rem;
+    margin-left: 0.34rem;
+}
+
+
+
+
+.cunbtn{
+    width: 100%;
+    height: 1.35rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cunan{
+    width: 88.47222%;
+    height: 0.7rem;
+    background-image: linear-gradient(90deg, #ff933a 0%, #ff6c22 100%);
+    border-radius: 0.14rem;
+    font-size: 0.32rem;
+    color: #ffffff;
+    line-height: 0.7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.peisong_tishi{
+    font-size: 0.28rem;
+    color: #7e7e7e;
+    margin-left: 0.27rem;
+}

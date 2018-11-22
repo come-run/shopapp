@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #ebebeb;
+}
+
+
+.title{
+    width: 100%;
+    height: 0.96rem;
+    background: #ebebeb;
+
+}
+.title_back{
+    width: 0.22px;
+    height: 100%;
+    float: left;
+    margin-left: 0.32rem;
+}
+.title_back a{
+    /*font-size: 0.4rem;*/
+    /*font-weight: bold;*/
+    /*color: #333333;*/
+    /*line-height: 0.96rem;*/
+    width: 0.25rem;
+    height: 0.45rem;
+    display: block;
+    background: url("../img/back.gif");
+    background-size: contain;
+    margin-top: 0.25rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+}
+
+
+.duanxintiao{
+    width: 91.66%;
+    height: 1.72rem;
+    background: #ffffff;
+    border-radius: 0.14rem;
+    margin: 0 auto;
+}
+.duanxintiao_title{
+    font-size: 0.32rem;
+    color: #ff963b;
+    height: 0.72rem;
+    border-bottom: 0.02rem  solid #ebebeb;
+    line-height: 0.72rem;
+    margin-left: 0.28rem;
+}
+
+.duanxintiao_num span{
+    font-size: 0.3rem;
+    color: #404750;
+}
+.duanxintiao_num span:first-child{
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+body{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+}
+.navtitle{
+    width: 100%;
+    height: 0.97rem;
+    border-bottom: 0.02rem solid #ebebeb;
+    font-size: 0.36rem;
+    color: #333333;
+    text-align: center;
+    line-height: 0.97rem;
+    font-weight: bold;
+
+}
+#container{
+    position: absolute;
+    top:1.79rem;
+    bottom: 0;
+}
+.navtop{
+    width: 100%;
+    height: 0.76rem;
+    border-top: 0.02rem solid #ebebeb;
+    border-bottom: 0.02rem solid #ebebeb;
+    position: absolute;
+    top:0.97rem;
+    left: 0;
+    z-index: 30;
+    background: #ffffff;
+    display: flex;
+
+}
+
+.navleft,.navright{
+    width: 50%;
+    height: 100%;
+    font-size: 0.3rem;
+    color: #787878;
+    line-height: 0.76rem;
+    text-align: center;
+}
+
+.navactive{
+    background-image: linear-gradient(128deg, #ff963a 0%, #ff6b23 100%), linear-gradient(#ffffff, #ffffff);
+    border-radius: 0.12rem;
+    color: #ffffff;
+}
+
+.jiange{
+    width: 0.02rem;
+    height: 0.65rem;
+    background: #eaeaea;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-0.33rem;
+    margin-left: 0.01rem;
+}
+
+
+
+.bottomnav{
+    width: 100%;
+    height: 0.96rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+
+}

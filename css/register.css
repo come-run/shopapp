@@ -1,0 +1,95 @@
+.title{
+    width: 100%;
+    height: 0.96rem;
+    background: #fff;
+    border-bottom: 0.17rem solid #cccccc;
+}
+.title_back{
+    width: 0.22px;
+    height: 100%;
+    float: left;
+    margin-left: 0.3rem;
+}
+.title_back a{
+    /*font-size: 0.4rem;*/
+    /*font-weight: bold;*/
+    /*color: #333333;*/
+    /*line-height: 0.96rem;*/
+    width: 0.25rem;
+    height: 0.45rem;
+    display: block;
+    background: url("../img/back.gif");
+    background-size: contain;
+    margin-top: 0.25rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+}
+
+.login{
+    width: 100%;
+    height: 2.83rem;
+    border-top: 0.02rem solid #ebebeb;
+    position: relative;
+}
+
+.login_top{
+    height: 1.62rem;
+
+
+}
+.login_topphon,.login_topcheck{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 0.02rem solid  #ebebeb;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+}
+.login_topphon{
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_topphon input,.login_topcheck input{
+    width: 5rem;
+    height: 100%;
+    outline: none;
+    font-size: 0.28rem;
+    color: #333333;
+    border: none;
+}
+
+.getcheckcod{
+    width: 1.34rem;
+    height: 0.52rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    font-size: 0.22rem;
+    color: #fff;
+    line-height: 0.52rem;
+    text-align: center;
+}
+.login_submit{
+    width: 6.6rem;
+    height: 0.78rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3.3rem;
+    font-size: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.78rem;
+}
+
+

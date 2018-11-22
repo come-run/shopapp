@@ -1,0 +1,94 @@
+.title{
+    width: 100%;
+    height: 0.96rem;
+    background: #fff;
+    border-bottom: 0.02rem solid #cccccc;
+}
+.title_back{
+    width: 0.22px;
+    height: 100%;
+    float: left;
+    margin-left: 0.3rem;
+}
+.title_back a{
+    width: 0.25rem;
+    height: 0.45rem;
+    display: block;
+    background: url("../img/back.gif");
+    background-size: contain;
+    margin-top: 0.25rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+}
+
+
+.formtitle{
+    width: 100%;
+    height: auto;
+}
+.renzlist,.renzlistli{
+    width: 100%;
+    height: 0.75rem;
+    border-bottom: 0.02rem solid #ebebeb;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+
+}
+.renzlistli{
+    height: 1.17rem;
+}
+.renzlist h1{
+    font-size: 0.28rem;
+    line-height: 0.75rem;
+    color: #333333;
+}
+.renzlistli_title{
+    font-size: 0.24rem;
+    color: #333333;
+    line-height: 1.17rem;
+
+}
+.renzlistli_wrape{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.renzlistli_add{
+    width: 0.86rem;
+    height: 0.86rem;
+    border: 0.02rem dashed #cccccc;
+    font-size: 0.2rem;
+    color: #cccccc;
+    text-align: center;
+    line-height: 0.86rem;
+    border-radius: 0.08rem;
+}
+
+.login_btn{
+    width: 100%;
+    position: relative;
+    margin-top: 0.64rem;
+}
+.login_submit{
+    width: 6.6rem;
+    height: 0.78rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    position: absolute;
+    top:0;
+    left: 50%;
+    margin-left: -3.3rem;
+    font-size: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.78rem;
+}

@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background:#f1efef ;
+}
+.title{
+    width: 100%;
+    height: 0.96rem;
+    background: #f1efef;
+    border-bottom: 0.02rem solid #e7e6e6;
+    position: relative;
+}
+.title_back{
+    width: 0.52rem;
+    height: 0.28rem;
+    float: left;
+    background-image: linear-gradient(128deg, #ff963a 0%, #ff6b23 100%), linear-gradient(#ffffff, #ffffff);
+    margin-left: 0.3rem;
+    border-radius: 0.11rem;
+    font-size: 0.14rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.28rem;
+    position: absolute;
+    top:50%;
+    margin-top: -0.14rem;
+}
+.title_back a{
+    width: 0.25rem;
+    height: 0.45rem;
+    display: block;
+    margin-top: 0.25rem;
+
+}
+.title_font{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 0.96rem;
+    text-align: center;
+}
+
+
+
+.dainei{
+    width: 100%;
+    height: 100%;
+
+}
+
+.quanlist{
+    width: 92%;
+    height: 2.21rem;
+    background: #ffffff;
+    border-radius: 0.12rem;
+    box-shadow: 0.03rem 0.06rem 0.08rem 0.03rem rgba(200, 208, 210, 0.3);
+    margin: 0.39rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.quanlist:first-child{
+    margin-top: 0.11rem;
+}
+
+.quanimg{
+    width: 1.39rem;
+    height: 1.83rem;
+}
+
+.quanimg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.quanhzong{
+    height: 1.83rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.quanzhongl span{
+    font-size: 0.24rem;
+    color: #6d6d6d;
+}
+
+.quanzhongz span{
+    font-size: 0.2rem;
+    color: #6d6d6d;
+}
+.quanzhongr span{
+    font-size: 0.22rem;
+    color: #6d6d6d;
+}
+
+.quanfa{
+    height: 1.83rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quanfanu{
+    width: 0.85rem;
+    height: 0.36rem;
+    background-image: linear-gradient(128deg, #ff963a 0%, #ff6b23 100%), linear-gradient(#f1efef, #f1efef);
+    border-radius: 0.1rem ;
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.36rem;
+    text-align: center;
+    margin-bottom: 0.12rem;
+}

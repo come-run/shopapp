@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/sheliao.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/reset.js"></script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.10&key=b52f02c6a13e0f3330efc64c81ffeaec"></script>
+</head>
+<body>
+    <div class="navtitle">
+        社聊
+    </div>
+
+    <div class="navtop">
+         <div class="navleft navactive">地图</div>
+         <div class="navright">消息</div>
+        <div class="jiange"></div>
+
+    </div>
+
+    <div class="qunfabtn">一键群发</div>
+
+    <div id="container" style="width:100%;height:100%;"></div>
+
+
+    <!--用户的信息-->
+    <div class="userinfowrap" style="display: none">
+        <div class="userinfo">
+            <div class="userimg">
+                <img src="" alt="">
+            </div>
+
+            <div class="usercontent">
+                <div class="userleft">
+                    <div class="username">Queen</div>
+                    <div class="useras">
+                        <span class="usersex">♀</span>
+                        <span class="userage">22</span>
+                    </div>
+                </div>
+                <div class="userright">
+                    <div class="usertime">15分钟前上线</div>
+                    <div class="userjuli">距离2.2km</div>
+                </div>
+            </div>
+
+            <div class="sayhai">打个招呼</div>
+        </div>
+    </div>
+
+
+    <!--群发消息-->
+    <div class="userinfowrap" style="display: none">
+        <div class="qunfa">
+            <div class="top">请输入要群发的内容</div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <a href="orderdai.html">
+            <div class="footerli">
+                <i class="iconfont icon-gerenzhongxinwodedingdan  "></i>
+
+                <div class="footerword">订单处理</div>
+            </div>
+        </a>
+
+        <a href="ordersearch.html">
+            <div class="footerli">
+                <i class="iconfont icon-dingdandingdanchaxun "></i>
+                <div class="footerword">订单查询</div>
+            </div>
+        </a>
+
+        <a href="sheliao.html">
+            <div class="footerli">
+                <i class="iconfont icon-dingdandingdanchaxun footactive"></i>
+                <div class="footerword">社聊</div>
+            </div>
+        </a>
+
+        <a href="">
+            <div class="footerli">
+                <i class="iconfont icon-faxian"></i>
+                <div class="footerword">发现</div>
+            </div>
+        </a>
+
+        <a href="shopmanage.html">
+            <div class="footerli">
+                <i class="iconfont icon-faxian"></i>
+                <div class="footerword">超市管理</div>
+            </div>
+        </a>
+
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    var map = new AMap.Map('container', {
+        resizeEnable: true, //是否监控地图容器尺寸变化
+        zoom:14, //初始化地图层级
+    });
+
+    map.plugin([
+        'AMap.ToolBar',
+    ], function(){
+        // 在图面添加工具条控件，工具条控件集成了缩放、平移、定位等功能按钮在内的组合控件
+        toolBar = new AMap.ToolBar();
+        toolBar.show();
+        toolBar.hideRuler();
+        toolBar.hideDirection();
+        map.addControl(toolBar);
+
+    });
+</script>

@@ -1,0 +1,321 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #ebebeb;
+}
+.con{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    height: auto;
+    background: #ebebeb;
+    margin-bottom: 0.96rem;
+}
+
+
+.navtitle{
+    width: 100%;
+    height:0.96rem ;
+    position: relative;
+
+}
+.navtitle_word{
+    font-size: 0.36rem;
+    color: #333333;
+    line-height: 0.96rem;
+    text-align: center;
+    font-weight: bold;
+}
+.information{
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.information .icon-duanxinlianxiwo{
+    font-size: 0.42rem;
+    color: #f7752b;
+}
+
+
+/*商店展示*/
+.shopshow{
+    width: 100%;
+    height: 2.83rem;
+    background: #ffffff;
+    border-radius: 0.14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.shopshowimg{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin-top: 0.18rem;
+    margin-bottom: 0.16rem;
+}
+
+.shopshowimg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.shopshowname{
+    font-size: 0.3rem;
+    color: #3e4549;
+    font-weight: bold;
+}
+
+.shopshowid{
+    font-size:0.22rem;
+    color: #b0b0b0;
+    margin-top: 0.22rem;
+}
+
+.showstace{
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0;
+}
+.showstace .statc{
+    font-size: 0.24rem;
+    color: #ff6e24;
+    background-color: #ffd4af;
+    box-shadow: 0 0.03rem 0.09rem 0 rgba(255, 133, 25, 0.32);
+    border-radius: 0.15rem;
+    border: solid 0.01rem #ffffff;
+    padding-left: 0.14rem;
+    padding-right: 0.14rem;
+    box-sizing: border-box;
+}
+
+.jiantou i.icon-jiantouyou{
+    font-size: 0.23rem;
+    margin-left: 0.27rem;
+    margin-right: 0.11rem;
+}
+
+
+/*收入展示*/
+.tongji{
+    width: 100%;
+    height: 1.43rem;
+    background: #ffffff;
+    border-radius: 0.14rem;
+    margin-top: 0.16rem;
+    position: relative;
+}
+.tongjiL,.tongjiR{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tongjititle{
+    font-size: 0.24rem;
+    color: #767575;
+}
+.tongjiprice{
+    font-size: 0.3rem;
+    color: #3e4549;
+
+}
+.oldday span{
+    font-size: 0.2rem;
+    color: #919191;
+}
+
+.zhongjian{
+    width: 0.03rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #bcbcbc;
+}
+
+/*商店评分*/
+.shoppingfen{
+    width: 100%;
+    height: 0.52rem;
+    margin-top: 0.02rem;
+    background: #ffffff;
+    border-radius: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+.pingfenxi{
+    display: flex;
+    align-items: center;
+
+}
+
+.pingfenxi a .icon-jiantouyou{
+    font-size: 0.23rem;
+
+}
+
+.shoppingfen span{
+    font-size: 0.2rem;
+    color:  #767575;
+}
+.pingfenxi .guan{
+    width: 0.26rem;
+    height: 0.24rem;
+    display: block;
+    margin-left: 0.1rem;
+}
+.pingfenxi .guan img{
+    width: 0.26rem;
+    height: 0.24rem;
+    display: block;
+}
+
+
+.pingfenxi a{
+    margin-left: 0.21rem;
+}
+.pingfenxi a .icon{
+    font-size: 0.23rem;
+}
+.dengji{
+    font-size: 0.2rem;
+    color: #7a7777;
+}
+.debnum{
+    font-size: 0.2rem;
+    color: #7a7777;
+    margin-right: 0.14rem;
+    margin-left: 0.24rem;
+}
+/*商品分类管理*/
+.shoplei{
+    width: 100%;
+    height: 4.12rem;
+    border-radius: 0.14rem;
+    margin-top: 0.16rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.shoplei li{
+    width: 2.15rem;
+    background: #ffffff;
+    height: 2.01rem;
+    border-radius: 0.14rem;
+}
+.shoplei li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shopleibiao{
+    width: 100%;
+    height: 0.68rem;
+
+}
+.shopleizi{
+    font-size: 0.26rem;
+    color: #767575;
+    margin-top: 0.22rem;
+}
+
+.shopleibiao img{
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+/*底部导航*/
+.footer{
+    width: 100%;
+    height: 0.96rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+
+.footerli{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items: center;
+}
+.footerword{
+    font-size: 0.2rem;
+    color: #333333;
+}
+.footerli .iconfont.footactive{
+    font-size: 0.48rem;
+    color: #fd903a;
+}
+
+.footerli .icon-gerenzhongxinwodedingdan,.footerli .icon-dingdandingdanchaxun,.footerli .icon-faxian{
+    font-size: 0.46rem;
+    color: #8e8e8e;
+}
+.footerli .icon-gerenzhongxinwodedingdan,.footerli .icon-dingdandingdanchaxun{
+    font-size: 0.48rem;
+}

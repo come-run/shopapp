@@ -1,0 +1,59 @@
+body{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+
+}
+
+.bannaer{
+    width: 100%;
+    height: auto;
+}
+
+.bannaer img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.denglu,.zhuce{
+
+    width: 100%;
+    height: 0.96rem;
+    background-image: linear-gradient(90deg, #ff963b 0%, #ff6a22 100%);
+    border-radius: 0.1rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.96rem;
+}
+
+
+.zhuce{
+    background: #bebdbd;
+    margin-right: 0.66rem;
+
+}
+
+.left span,.right span{
+    font-size: 0.24rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #4e4e4e;
+    margin-top: 0.13rem;
+}
+.left{
+    float: left;
+    width: 34.3%;
+    margin-left: 0.66rem;
+    margin-bottom: 0.8rem;
+}
+.right{
+    float: right;
+    width: 34.3%;
+    margin-right: 0.66rem;
+    margin-bottom: 0.8rem;
+}
