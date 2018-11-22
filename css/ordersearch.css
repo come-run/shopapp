@@ -35,7 +35,11 @@ body{
     margin-top: auto;
     width: 0.5rem;
     height: 0.5rem;
-    background: red;
+}
+
+.information .icon-duanxinlianxiwo{
+    font-size: 0.42rem;
+    color: #f7752b;
 }
 
 
@@ -223,11 +227,15 @@ body{
 .procon_img{
     width: 2.01rem;
     height: 1.3rem;
-    background-color: #ff7e00;
-    border-radius: 0.1rem;
     border: solid 0.01rem #eeeeee;
     margin-left: -0.05rem;
     margin-right: 0.34rem;
+}
+
+.procon_img img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .procon_info{
     flex: 1;

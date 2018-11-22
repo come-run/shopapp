@@ -119,8 +119,12 @@
     width: 2.01rem;
     height: 1.3rem;
     border-radius: 0.1rem;
-    border: 0.01rem solid #eeeeee;
-    background: red;
+}
+
+.listLimg img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .listLcon{
     margin-left:0.11rem;
